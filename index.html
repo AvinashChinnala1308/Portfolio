@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets\images\1000018231.jpg" alt="Avinash Chinnala" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Avinash Chinnala">Avinash Chinnala</h1>
+
+          <p class="title">Ful Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:avinashchinnala1325@gmail.com" class="contact-link">avinashchinnala1325@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+16605285228" class="contact-link">+1 (660) 528-5228</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2000-11-13">September 13, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Maryville, Missouri, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+      <li class="navbar-item">
+  <button class="navbar-link" data-nav-link>Technical Skills</button>
+</li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a skilled Java Full Stack Developer with over 3 years of experience in designing, developing, and maintaining robust and scalable web applications using Java, Spring Boot, and Angular. I specialize in building RESTful APIs and implementing microservices architectures, with a strong focus on secure application development using JWT and Spring Security.
+          </p>
+
+          <p>
+            On the front end, I have extensive experience with Angular, React, HTML5, CSS3, JavaScript, and TypeScript for 
+            building dynamic Single Page Applications (SPAs). I’m proficient with databases like MySQL and PostgreSQL and ORM tools 
+            such as Hibernate and JPA. My DevOps skills include setting up CI/CD pipelines using Jenkins, Git, Docker, and Kubernetes, along with experience in Swagger/OpenAPI, Maven, and Jira. I follow clean code practices, test-driven development, and Agile/Scrum methodologies. Additionally, I have hands-on experience deploying and monitoring 
+            cloud-native applications using AWS services such as EC2, S3, Lambda, RDS, and CloudWatch.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Developer</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API Design & Integration</h4>
+
+                <p class="service-item-text">
+                  Designing and consuming RESTful APIs to enable seamless communication.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Testing & Code Quality</h4>
+
+                <p class="service-item-text">
+                  Using tools like JUnit and Selenium for unit, integration and UI testing.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Agile Practitioner</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Michael Bellamy" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Michael Bellamy</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Avinash worked on a project this semester with me to make the chemistry game found 
+                    at https://vaishnavi-varaganti.itch.io/acid-base-quest The game works well and Avinash was responsive to 
+                    requests for changes 
+                    as we developed the game. I think that he would be a good choice for any application development.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Keerthana Kamana" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Keerthana Kamana</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the privilege of working closely with Avinash on several high-impact software development projects, and I was consistently impressed by 
+                    his professionalism, technical acumen, and collaborative mindset.
+                    Avinash brings deep expertise in full stack development, particularly in Java, Spring Boot, Angular, 
+                    and RESTful API integration. Their ability to seamlessly bridge front-end and back-end development 
+                    contributed significantly to the success of our team’s deliverables.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Sai Chand Vallabhaneni" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sai Chand Vallabhaneni</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                     I had the pleasure of working with Avinash, 
+                     and they were a key part of our development team. They have strong skills in full stack development 
+                     using Java, Spring Boot, and Angular, and always delivered high-quality work on time.
+                    Avinash is a great team player, quick to solve problems, and always ready to help others. 
+                    Their knowledge of AWS and CI/CD tools also added great value to our projects.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Northwest Missouri State University</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Master's Degree in Computer Science, 
+                Secured 3.8 CGPA.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Geethanjali College of Engineering and Technology</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor's Degree in Computer Science, 
+                Secured 7.67 CGPA.
+              </p>
+
+            </li>
+
+           
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer, Northwest Missouri State University</h4>
+
+              <span>Oct 2023 — Dec 2024</span>
+
+              <p class="timeline-text">
+                Spearheaded the development of full-stack applications including Timeclock, Auto Enroll, and Online 
+Textbook System using Spring Boot, Angular, and MySQL.<br>
+Built and integrated RESTful APIs for seamless front-end and back-end communication.<br>
+Conducted unit and integration testing with JUnit, Mockito, and Selenium, ensuring robust and bug-free 
+deployments. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Associate Software Engineer, Bosch Global Software Technology</h4>
+
+              <span>Jul 2022 — Aug 2023</span>
+
+              <p class="timeline-text">
+                Designed and developed microservices using Java, Spring Boot, and Hibernate, following clean 
+architecture principles. <br>Created and consumed RESTful APIs for enterprise-wide integrations. 
+<br> Utilized AWS Lambda for serverless processing in select automation workflows. 
+<br>Employed Docker and Jenkins in a CI/CD pipeline to automate build and deployment tasks. 
+<br> Applied Agile methodologies and collaborated across DevOps and QA teams.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Project Engineer, AGL Technology</h4>
+
+              <span>Oct 2021 — Jun 2022</span>
+
+              <p class="timeline-text">
+                Developed interactive web applications using Angular and React, connecting to Java-based REST APIs. <br>
+Managed CI/CD pipelines using Jenkins and deployed Dockerized applications to development and 
+staging environments. <br>
+Wrote complex SQL queries for ETL and reporting, integrating with Spring Data JPA for ORM. <br>
+Supported analytics integration by exporting transformed data to Snowflake for business intelligence use 
+cases.
+              </p>
+
+            </li>
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PEP, EPAM PEP</h4>
+
+              <span>Sep 2020 — Jun 2021</span>
+
+              <p class="timeline-text">
+                Developed mini-projects and hands-on modules in Java, HTML, CSS, and JavaScript, applying SOLID 
+and DRY principles . <br>
+Learned and applied Spring Boot, Maven, and JUnit for backend services and test automation. <br>
+Practiced full-stack development through assignments involving UI creation, REST API development, and 
+database connectivity.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+<!--
+  - #TECHNICAL SKILLS & PROJECTS
+-->
+<article class="portfolio" data-page="technical skills">
+
+  <header>
+    <h2 class="h2 article-title">Technical Skills & Projects</h2>
+  </header>
+
+  <!-- Technical Skills Section -->
+  <section class="skills">
+
+    <h3 class="h3 service-title">Technical Skills</h3>
+
+    <ul class="service-list">
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Languages & Frameworks</h4>
+          <p class="service-item-text">
+            Java, Spring Boot, JavaScript, TypeScript, Python, Angular, React, HTML5, CSS3, Bootstrap
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Database & DevOps</h4>
+          <p class="service-item-text">
+            MySQL, PostgreSQL, MongoDB, Docker, Jenkins, Kubernetes, Git
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Tools & Cloud</h4>
+          <p class="service-item-text">
+            AWS (EC2, S3, Lambda, RDS), Swagger, Maven, Jira, Postman
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Testing</h4>
+          <p class="service-item-text">
+            JUnit, Mockito, Selenium, Jest
+          </p>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h3 class="h3 service-title">Projects</h3>
+
+    <ul class="service-list">
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Time Clock System</h4>
+          <p class="service-item-text">
+            Full-stack time tracking app using Spring Boot, Angular, MySQL, deployed on AWS EC2 & S3.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Fall Detection System</h4>
+          <p class="service-item-text">
+            IoT-based alert system with React dashboard, Firebase DB, and AWS SNS for real-time SMS notifications.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Innoversity</h4>
+          <p class="service-item-text">
+            Idea-sharing platform using Spring Boot, React, and Docker with full CRUD and upvote features.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Acid-Base Game</h4>
+          <p class="service-item-text">
+            Educational chemistry game built with Godot APIs, React, and Spring Boot for backend score tracking.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
